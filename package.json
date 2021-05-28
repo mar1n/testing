@@ -6,10 +6,16 @@
   "scripts": {
     "test": "jest"
   },
+  "jest": {
+    "testEnvironment": "node"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "jest": "^27.0.1"
+    "express": "^4.17.1",
+    "jest": "^27.0.1",
+    "mongodb-memory-server": "^6.9.6",
+    "mongoose": "^5.12.11"
   }
 }
